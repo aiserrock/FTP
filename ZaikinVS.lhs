@@ -70,7 +70,7 @@ import ExtraTypes
     - chk1_11    lottery            -- проверка задачи 1-11
     - chk1_12    ones3              -- проверка задачи 1-12
     - chk1_13    same3              -- проверка задачи 1-13
-    + chk1_14    diff3              -- проверка задачи 1-14
+    - chk1_14    diff3              -- проверка задачи 1-14
     - chk1_15    gcd3               -- проверка задачи 1-15
     - chk1_16    lcm2               -- проверка задачи 1-16
     - chk1_17    lcm3               -- проверка задачи 1-17
@@ -94,7 +94,7 @@ import ExtraTypes
     - chk2_14    min_abs2absRoot    -- проверка задачи 2-14
 
     Вычислительные задачи
-    - chk3_1     sumSq              -- проверка задачи 3-1
+    + chk3_1     sumSq              -- проверка задачи 3-1
     - chk3_2     fibs               -- проверка задачи 3-2
     - chk3_3     bins               -- проверка задачи 3-3
     - chk3_4     eApr               -- проверка задачи 3-4
@@ -376,11 +376,6 @@ same3 n | n<0 = undefined
 
 Мое решение:
 \begin{code}
-
-fact :: Integer -> Integer
-fact n  | n<0   = undefined
-        | n==0  = 1
-        | n>0   = n*fact (n-1)
 diff3 :: Integer -> Float
 diff3 n | n<0 = undefined
         | n==1 || n==0 = 0.0
@@ -392,28 +387,33 @@ diff3 n | n<0 = undefined
 
 Мое решение:
 \begin{code}
-
+gcd3 :: Integer -> Integer -> Integer -> Integer
+gcd3 a b c = gcd (gcd a b) c
 \end{code}
 
 \textbf{1-16} Написать функцию \prg{lcm2 :: Integer {\AR} Integer {\AR} Integer}, вычисляющую  \textbf{НОК}$(a,b)$, наименьшее общее кратное чисел $a$ и $b$.
 
 Мое решение:
 \begin{code}
-
+lcm2 :: Integer -> Integer -> Integer
+lcm2 0 0 = 0
+lcm2 a b = (abs (a*b)) `div` (gcd (abs a) (abs b))
 \end{code}
 
 \textbf{1-17} Написать функцию \prg{lcm3 :: Integer {\AR} Integer {\AR} Integer {\AR} Integer}, вычисляющую  \textbf{НОК}$(a,b,c)$, наименьшее общее кратное чисел $a$, $b$ и $c$.
 
 Мое решение:
 \begin{code}
-
+lcm3 :: Integer -> Integer -> Integer -> Integer
+lcm3 a b c = lcm2 (lcm2 a b) c
 \end{code}
 
 \textbf{1-18} Написать функцию \prg{lcm3gcd :: Integer {\AR} Integer {\AR} Integer {\AR} Integer}, вычисляющую  для заданных чисел $a$, $b$ и $c$ значение выражения $\mbox{\textbf{НОК}}(\mbox{\textbf{НОД}}(a,b),\mbox{\textbf{НОД}}(b,c),\mbox{\textbf{НОД}}(c,a))$.
 
 Мое решение:
 \begin{code}
-
+lcm3gcd :: Integer -> Integer -> Integer -> Integer
+lcm3gcd a b c = lcm3 (gcd a b) (gcd b c) (gcd c a)
 \end{code}
 
 \textbf{1-19} Написать функцию \prg{pps :: [[Integer]] {\AR} [Integer]}, объединяющую любое число списков.
@@ -421,9 +421,8 @@ diff3 n | n<0 = undefined
 Мое решение:
 \begin{code}
 pps :: [[Integer]] -> [Integer]
-pps n
+pps a = concat a
 \end{code}
-
 %\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%
 \section{Корни уравнений}
 
@@ -572,7 +571,10 @@ min_abs2absRoot :: Float -> Float -> Float -> Float
 
 Мое решение:
 \begin{code}
-
+pow2 :: Int -> Int
+pow2 a = a*a
+sumSq :: Int -> Int
+sumSq n = sum (map pow2 [1..n]) 
 \end{code}
 
 \textbf{3-2} Написать функцию \prg{fibs :: [Integer]}, вычисляющую последовательность чисел Фибоначчи (последовательность начинается с нуля).
