@@ -94,9 +94,9 @@ import ExtraTypes
     - chk2_14    min_abs2absRoot    -- проверка задачи 2-14
 
     Вычислительные задачи
-    + chk3_1     sumSq              -- проверка задачи 3-1
+    - chk3_1     sumSq              -- проверка задачи 3-1
     - chk3_2     fibs               -- проверка задачи 3-2
-    - chk3_3     bins               -- проверка задачи 3-3
+    + chk3_3     bins               -- проверка задачи 3-3
     - chk3_4     eApr               -- проверка задачи 3-4
     - chk3_5     sqrtH              -- проверка задачи 3-5
 
@@ -430,7 +430,9 @@ pps a = concat a
 
 Мое решение:
 \begin{code}
-
+abRoot :: Float -> Float -> Float
+abRoot a b | a == 0 = undefined
+           | otherwise = (-b)/a
 \end{code}
 
 \textbf{2-2} Написать функцию
@@ -440,14 +442,26 @@ abcRoots :: Float -> Float -> Float -> [Float]
 которая по заданным коэффициентам $a$, $b$ и $c$ будет вычислять список корней уравнения $ax^2+bx+c=0$.  Если корней бесконечно много, то функция не определена.
 
 \begin{code}
-
+abcRoots :: Float -> Float -> Float -> [Float]
+abcRoots a b c  | a == 0.0 && b == 0.0 && c == 0.0 = undefined 
+                | d<0 || (a == 0.0 && b == 0.0) = []
+                | b == c && b /= 0.0 && a==0.0 = [-1.0]
+                | b == 0.0 && c == 0.0 = [0.0]
+                | a == 0 && b /=0 = [(-c)/b]
+                | otherwise = [(-b+dsqrt)/n, (-b-dsqrt)/n]
+                                where d = b*b-4.0*a*c
+                                      n = 2.0*a
+                                      dsqrt = sqrt d
 \end{code}
 
 \textbf{2-3} Написать функцию \prg{ab\_Roots :: Float {\AR} Float {\AR} [Float]}, которая вычисляет список корней уравнения $ax^2+bx=0$.  Если корней бесконечно много, то функция не определена.
 
 Мое решение:
 \begin{code}
-
+ab_Roots :: Float -> Float -> [Float]
+ab_Roots a b    | a == 0.0 && b == 0.0 = undefined
+                | a == 0.0 = [0.0]
+                | otherwise = [0,(-b)/a] 
 \end{code}
 
 \textbf{2-4} Написать функцию
@@ -459,7 +473,8 @@ abcdRoots :: Float -> Float -> Float -> Float -> [Float]
 
 Мое решение:
 \begin{code}
-
+--abcdRoots :: Float -> Float -> Float -> Float -> [Float]
+--abcdRoots a b c d 
 \end{code}
 
 \textbf{2-5} Написать функцию
@@ -581,13 +596,29 @@ sumSq n = sum (map pow2 [1..n])
 
 Мое решение:
 \begin{code}
-
+fibs :: [Integer]
+fibs = 0:1:(zipWith (+) fibs (tail fibs))
 \end{code}
 
 \textbf{3-3} Написать функцию \prg{bins :: Integer {\AR} [Integer]}, вычисляющую список биномиальных коэффициентов для многочлена порядка $n$.
 
 Мое решение:
 \begin{code}
+-- bins :: Integer -> [Integer]
+-- bins 0 = [1]
+-- bins n = zipWith (+) ([0] ++ bins (n-1)) (bins (n-1) ++ [0])
+
+-- bins :: Integer -> [Integer]
+-- bins 0 = [1]
+-- bins 1 = [1, 1]
+-- bins n = let p = bins (n - 1)
+--     in [1] ++ pascalStep p ++ [1]
+
+-- pascalStep :: [Integer] -> [Integer]
+-- pascalStep [] = []
+-- pascalStep [_] = []
+-- pascalStep (x:y:xs) = x + y : pascalStep (y : xs)
+
 
 \end{code}
 
