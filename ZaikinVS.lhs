@@ -56,65 +56,65 @@ import ExtraTypes
 4) загрузите файл в форму автоматической проверки
 5) дождитесь результата и изучите файл с результатом
 
-    Проба пера
-    - chk1_1     cube               -- проверка задачи 1-1
-    - chk1_2     decmls             -- проверка задачи 1-2
-    - chk1_3     ese                -- проверка задачи 1-3
-    - chk1_4     eso                -- проверка задачи 1-4
-    - chk1_5     epo                -- проверка задачи 1-5
-    - chk1_6     n_cups_m_saucers   -- проверка задачи 1-6
-    - chk1_7     wonderland3        -- проверка задачи 1-7
-    - chk1_8     wonderland4        -- проверка задачи 1-8
-    - chk1_9     fortee             -- проверка задачи 1-9
-    - chk1_10    bwtable            -- проверка задачи 1-10
-    - chk1_11    lottery            -- проверка задачи 1-11
-    - chk1_12    ones3              -- проверка задачи 1-12
-    - chk1_13    same3              -- проверка задачи 1-13
-    - chk1_14    diff3              -- проверка задачи 1-14
-    - chk1_15    gcd3               -- проверка задачи 1-15
-    - chk1_16    lcm2               -- проверка задачи 1-16
-    - chk1_17    lcm3               -- проверка задачи 1-17
-    - chk1_18    lcm3gcd            -- проверка задачи 1-18
-    - chk1_19    pps                -- проверка задачи 1-19
+    Проба пера19
+    + chk1_1     cube               -- проверка задачи 1-1
+    + chk1_2     decmls             -- проверка задачи 1-2
+    + chk1_3     ese                -- проверка задачи 1-3
+    + chk1_4     eso                -- проверка задачи 1-4
+    + chk1_5     epo                -- проверка задачи 1-5
+    + chk1_6     n_cups_m_saucers   -- проверка задачи 1-6
+    + chk1_7     wonderland3        -- проверка задачи 1-7
+    + chk1_8     wonderland4        -- проверка задачи 1-8
+    + chk1_9     fortee             -- проверка задачи 1-9
+    + chk1_10    bwtable            -- проверка задачи 1-10
+    + chk1_11    lottery            -- проверка задачи 1-11
+    + chk1_12    ones3              -- проверка задачи 1-12
+    + chk1_13    same3              -- проверка задачи 1-13
+    + chk1_14    diff3              -- проверка задачи 1-14
+    + chk1_15    gcd3               -- проверка задачи 1-15
+    + chk1_16    lcm2               -- проверка задачи 1-16
+    + chk1_17    lcm3               -- проверка задачи 1-17
+    + chk1_18    lcm3gcd            -- проверка задачи 1-18
+    + chk1_19    pps                -- проверка задачи 1-19
 
     Корни уравнений
-    - chk2_1     abRoot             -- проверка задачи 2-1
-    - chk2_2     abcRoots           -- проверка задачи 2-2
-    - chk2_3     ab_Roots           -- проверка задачи 2-3
-    - chk2_4     abcdRoots          -- проверка задачи 2-4
-    - chk2_5     abcdeRoots         -- проверка задачи 2-5
-    - chk2_6     absRoots           -- проверка задачи 2-6
-    - chk2_7     abs2Roots          -- проверка задачи 2-7
-    - chk2_8     absabs2Roots       -- проверка задачи 2-8
-    - chk2_9     min_ab_Root        -- проверка задачи 2-9
-    - chk2_10    min_abcdRoot       -- проверка задачи 2-10
-    - chk2_11    min_abcdeRoot      -- проверка задачи 2-11
-    - chk2_12    min_absRoot        -- проверка задачи 2-12
-    - chk2_13    min_2absRoot       -- проверка задачи 2-13
-    - chk2_14    min_abs2absRoot    -- проверка задачи 2-14
+    + chk2_1     abRoot             -- проверка задачи 2-1
+    + chk2_2     abcRoots           -- проверка задачи 2-2
+    + chk2_3     ab_Roots           -- проверка задачи 2-3
+    + chk2_4     abcdRoots          -- проверка задачи 2-4
+    + chk2_5     abcdeRoots         -- проверка задачи 2-5
+    + chk2_6     absRoots           -- проверка задачи 2-6
+    + chk2_7     abs2Roots          -- проверка задачи 2-7
+    + chk2_8     absabs2Roots       -- проверка задачи 2-8
+    + chk2_9     min_ab_Root        -- проверка задачи 2-9
+    + chk2_10    min_abcdRoot       -- проверка задачи 2-10
+    + chk2_11    min_abcdeRoot      -- проверка задачи 2-11
+    + chk2_12    min_absRoot        -- проверка задачи 2-12
+    + chk2_13    min_2absRoot       -- проверка задачи 2-13
+    + chk2_14    min_abs2absRoot    -- проверка задачи 2-14
 
     Вычислительные задачи
-    - chk3_1     sumSq              -- проверка задачи 3-1
-    - chk3_2     fibs               -- проверка задачи 3-2
+    + chk3_1     sumSq              -- проверка задачи 3-1
+    + chk3_2     fibs               -- проверка задачи 3-2
     + chk3_3     bins               -- проверка задачи 3-3
-    - chk3_4     eApr               -- проверка задачи 3-4
-    - chk3_5     sqrtH              -- проверка задачи 3-5
+    + chk3_4     eApr               -- проверка задачи 3-4
+    + chk3_5     sqrtH              -- проверка задачи 3-5
 
     Числа и цифры
-    - chk4_1     binary_dgts        -- проверка задачи 4-1
-    - chk4_2     ternary_dgts       -- проверка задачи 4-2
-    - chk4_3     decimal_dgts       -- проверка задачи 4-3
-    - chk4_4     k_ary_dgts         -- проверка задачи 4-4
-    - chk4_5     setun_dgts         -- проверка задачи 4-5
-    - chk4_6     s2dgts             -- проверка задачи 4-6
-    - chk4_7     p3dgts             -- проверка задачи 4-7
-    - chk4_8     l4dgts             -- проверка задачи 4-8
+    + chk4_1     binary_dgts        -- проверка задачи 4-1
+    + chk4_2     ternary_dgts       -- проверка задачи 4-2
+    + chk4_3     decimal_dgts       -- проверка задачи 4-3
+    + chk4_4     k_ary_dgts         -- проверка задачи 4-4
+    + chk4_5     setun_dgts         -- проверка задачи 4-5
+    + chk4_6     s2dgts             -- проверка задачи 4-6
+    + chk4_7     p3dgts             -- проверка задачи 4-7
+    + chk4_8     l4dgts             -- проверка задачи 4-8
 
     Строки и символы
-    - chk5_1     dgt_chr            -- проверка задачи 5-1
-    - chk5_2     chr_dgt            -- проверка задачи 5-2
-    - chk5_3     sumDigits          -- проверка задачи 5-3
-    - chk5_4     upAlpha            -- проверка задачи 5-4
+    + chk5_1     dgt_chr            -- проверка задачи 5-1
+    + chk5_2     chr_dgt            -- проверка задачи 5-2
+    + chk5_3     sumDigits          -- проверка задачи 5-3
+    + chk5_4     upAlpha            -- проверка задачи 5-4
     - chk5_5     abbrev             -- проверка задачи 5-5
 
     Кредит и его погашение
@@ -137,8 +137,8 @@ import ExtraTypes
     - chk8_7     (.*.)              -- проверка задачи 8-7
 
     Списки
-    - chk9_1     inRange            -- проверка задачи 9-1
-    - chk9_2     pairs              -- проверка задачи 9-2
+    + chk9_1     inRange            -- проверка задачи 9-1
+    + chk9_2     pairs              -- проверка задачи 9-2
     - chk9_3     idxs               -- проверка задачи 9-3
     - chk9_4     delGt              -- проверка задачи 9-4
     - chk9_5     fsearch            -- проверка задачи 9-5
@@ -237,7 +237,7 @@ cube y = y*y*y
 decmls :: Integer -> Integer
 decmls n    | n<1 = undefined
             | n==1 = 10
-            | otherwise = (10^(n)-1)-(10^(n-1))+1
+            | otherwise = 10^(n - 1) * 9
 \end{code}
 
 \textbf{1-3} Написать функцию \prg{ese :: Integer {\AR} Bool}, вычисляющую, будет ли четной сумма \prg{n} четных чисел?
@@ -255,8 +255,7 @@ ese n   | n<0 = undefined
 \begin{code}
 eso :: Integer -> Bool
 eso n   | n<0 = undefined
-        | n `mod` 2 == 0 = True
-        | otherwise = False
+        | n >= 0 = even n
 \end{code}
 
 \textbf{1-5} Написать функцию \prg{epo :: Integer {\AR} Bool}, вычисляющую, будет ли четным произведение \prg{n} нечетных чисел?
@@ -355,8 +354,8 @@ lottery n   | n<1 = undefined
 \begin{code}
 ones3 :: Integer -> Float
 ones3 n | n<0 = undefined
-        | n==0 = 0.0
-        | otherwise = (fromInteger 1) / (fromInteger (n+1)^3)
+        | n==0 = 0
+        | otherwise = 1 / cube(fromInteger(n+1))
 \end{code}
 
 \textbf{1-13} Имеется три ящика, в каждом из которых лежат шары с номерами от \prg{0} до \prg{n}.
@@ -369,7 +368,7 @@ ones3 n | n<0 = undefined
 same3 :: Integer -> Float
 same3 n | n<0 = undefined
         | n==0 = 1
-        | otherwise = (fromInteger 1) / (fromInteger (n+1)^2)
+        | otherwise = 1 / (fromInteger (n+1)^2)
 \end{code}
 
 \textbf{1-14} Имеется три ящика, в каждом из которых лежат шары с номерами от \prg{0} до \prg{n}. Из каждого ящика вынимается по одному шару. Какова вероятность того, что вынуты три разных числа? Написать функцию, которая это вычисляет: \prg{diff3 :: Integer {\AR} Float}.
@@ -379,7 +378,8 @@ same3 n | n<0 = undefined
 diff3 :: Integer -> Float
 diff3 n | n<0 = undefined
         | n==1 || n==0 = 0.0
-        | otherwise = (fromInteger n / fromInteger (n+1)) * ((fromInteger (n-1)) / fromInteger (n+1))
+        | otherwise = fromInteger(n*(n-1)) / fromInteger(x*x)
+                    where x = (n+1)
 
 \end{code}
 
@@ -396,8 +396,7 @@ gcd3 a b c = gcd (gcd a b) c
 Мое решение:
 \begin{code}
 lcm2 :: Integer -> Integer -> Integer
-lcm2 0 0 = 0
-lcm2 a b = (abs (a*b)) `div` (gcd (abs a) (abs b))
+lcm2 = lcm
 \end{code}
 
 \textbf{1-17} Написать функцию \prg{lcm3 :: Integer {\AR} Integer {\AR} Integer {\AR} Integer}, вычисляющую  \textbf{НОК}$(a,b,c)$, наименьшее общее кратное чисел $a$, $b$ и $c$.
@@ -421,7 +420,7 @@ lcm3gcd a b c = lcm3 (gcd a b) (gcd b c) (gcd c a)
 Мое решение:
 \begin{code}
 pps :: [[Integer]] -> [Integer]
-pps a = concat a
+pps = concat
 \end{code}
 %\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%
 \section{Корни уравнений}
@@ -443,15 +442,15 @@ abcRoots :: Float -> Float -> Float -> [Float]
 
 \begin{code}
 abcRoots :: Float -> Float -> Float -> [Float]
-abcRoots a b c  | a == 0.0 && b == 0.0 && c == 0.0 = undefined 
-                | d<0 || (a == 0.0 && b == 0.0) = []
-                | b == c && b /= 0.0 && a==0.0 = [-1.0]
-                | b == 0.0 && c == 0.0 = [0.0]
-                | a == 0 && b /=0 = [(-c)/b]
-                | otherwise = [(-b+dsqrt)/n, (-b-dsqrt)/n]
-                                where d = b*b-4.0*a*c
-                                      n = 2.0*a
-                                      dsqrt = sqrt d
+abcRoots 0 0 0  = undefined
+abcRoots 0 0 c  = []
+abcRoots 0 b c  = [-c / b]
+abcRoots a b c   | d <  0 = []
+                 | d == 0 = [-b / t]
+                 | d >  0 = [(-b + g) / t, (-b - g) / t]
+                 where  d = b*b - 4.0*a*c
+                        g = sqrt d
+                        t = 2.0*a
 \end{code}
 
 \textbf{2-3} Написать функцию \prg{ab\_Roots :: Float {\AR} Float {\AR} [Float]}, которая вычисляет список корней уравнения $ax^2+bx=0$.  Если корней бесконечно много, то функция не определена.
@@ -459,9 +458,7 @@ abcRoots a b c  | a == 0.0 && b == 0.0 && c == 0.0 = undefined
 Мое решение:
 \begin{code}
 ab_Roots :: Float -> Float -> [Float]
-ab_Roots a b    | a == 0.0 && b == 0.0 = undefined
-                | a == 0.0 = [0.0]
-                | otherwise = [0,(-b)/a] 
+ab_Roots a b = abcRoots a b 0
 \end{code}
 
 \textbf{2-4} Написать функцию
@@ -473,19 +470,22 @@ abcdRoots :: Float -> Float -> Float -> Float -> [Float]
 
 Мое решение:
 \begin{code}
---abcdRoots :: Float -> Float -> Float -> Float -> [Float]
---abcdRoots a b c d 
+abcdRoots :: Float -> Float -> Float -> Float -> [Float]
+abcdRoots a b c d = (abcRoots a b c)++[-d]
 \end{code}
 
 \textbf{2-5} Написать функцию
 \begin{semicode}
 abcdeRoots ::
-    Float -> Float -> Float -> Float -> Float -> [Float]
+    Float -> Float ->Float -> Float -> Float ->  [Float]
 \end{semicode}
 вычисляющую корни уравнения $(ax^2+bx+c)(dx^2+e)=0$. Если корней бесконечно много, то функция не определена.
 
 Мое решение:
 \begin{code}
+abcdeRoots :: Float -> Float ->Float -> Float -> Float -> [Float]
+abcdeRoots a b c d e = (abcRoots a b c)++(abcRoots d 0 e)
+
 
 \end{code}
 
@@ -493,6 +493,11 @@ abcdeRoots ::
 
 Мое решение:
 \begin{code}
+absRoots :: Float -> Float -> [Float]
+absRoots a b  | b<0 = []
+              | b == 0 = [a]
+              | otherwise = [a+b,a-b]
+
 
 \end{code}
 
@@ -505,7 +510,12 @@ abs2Roots :: Float -> Float -> Float ->[Float]
 
 Мое решение:
 \begin{code}
-
+abs2Roots :: Float -> Float -> Float ->[Float]
+abs2Roots a b c | c < d = []
+                | c > d = [(a+b-c)/2,(a+b+c)/2]
+                | c == d && d /= 0 = undefined
+                | c == d && d == 0 = [a]
+                where d = abs(a-b)
 \end{code}
 
 \textbf{2-8} Написать функцию
@@ -517,14 +527,16 @@ absabs2Roots :: Float -> Float -> Float ->[Float]
 
 Мое решение:
 \begin{code}
-
+absabs2Roots = abs2Roots
 \end{code}
 
 \textbf{2-9} Написать функцию \prg{min\_ab\_Root :: Float {\AR} Float {\AR} Float}, которая будет вычислять меньший из корней уравнения $ax^2+bx=0$. Если корней нет или их бесконечно много, то функция не определена.
 
 Решение:
 \begin{code}
-
+min_ab_Root :: Float -> Float -> Float
+min_ab_Root 0 0 = undefined
+min_ab_Root a b = minimum(ab_Roots a b)
 \end{code}
 
 \textbf{2-10} Написать функцию с типом
@@ -535,7 +547,8 @@ min_abcdRoot :: Float -> Float -> Float -> Float -> Float
 
 Мое решение:
 \begin{code}
-
+min_abcdRoot :: Float -> Float -> Float -> Float -> Float
+min_abcdRoot a b c d = minimum(abcdRoots a b c d)
 \end{code}
 
 \textbf{2-11} Написать функцию
@@ -547,14 +560,16 @@ min_abcdeRoot ::
 
 Мое решение:
 \begin{code}
-
+min_abcdeRoot :: Float -> Float -> Float -> Float -> Float -> Float
+min_abcdeRoot a b c d e = minimum( abcdeRoots a b c d e)
 \end{code}
 
 \textbf{2-12} Написать функцию, которая вычисляет меньший из корней уравнения $|x-a|=b$: \prg{min\_absRoot :: Float {\AR} Float {\AR} Float}. Если корней нет, то функция не определена.
 
 Мое решение:
 \begin{code}
-
+min_absRoot :: Float -> Float -> Float
+min_absRoot a b = minimum(absRoots a b)
 \end{code}
 
 \textbf{2-13} Написать функцию
@@ -565,7 +580,9 @@ min_2absRoot :: Float -> Float -> Float -> Float
 
 Мое решение:
 \begin{code}
-
+min_2absRoot :: Float -> Float -> Float -> Float
+min_2absRoot a b c | c >= d = (a+b-c)/2
+                   where d = abs(a-b)
 \end{code}
 
 \textbf{2-14} Написать функцию
@@ -576,7 +593,7 @@ min_abs2absRoot :: Float -> Float -> Float -> Float
 
 Мое решение:
 \begin{code}
-
+min_abs2absRoot = min_2absRoot
 \end{code}
 
 %\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%
@@ -586,10 +603,8 @@ min_abs2absRoot :: Float -> Float -> Float -> Float
 
 Мое решение:
 \begin{code}
-pow2 :: Int -> Int
-pow2 a = a*a
 sumSq :: Int -> Int
-sumSq n = sum (map pow2 [1..n]) 
+sumSq n = (n*(n+1)*(2*n+1)) `div` 6 
 \end{code}
 
 \textbf{3-2} Написать функцию \prg{fibs :: [Integer]}, вычисляющую последовательность чисел Фибоначчи (последовательность начинается с нуля).
@@ -604,20 +619,10 @@ fibs = 0:1:(zipWith (+) fibs (tail fibs))
 
 Мое решение:
 \begin{code}
--- bins :: Integer -> [Integer]
--- bins 0 = [1]
--- bins n = zipWith (+) ([0] ++ bins (n-1)) (bins (n-1) ++ [0])
-
--- bins :: Integer -> [Integer]
--- bins 0 = [1]
--- bins 1 = [1, 1]
--- bins n = let p = bins (n - 1)
---     in [1] ++ pascalStep p ++ [1]
-
--- pascalStep :: [Integer] -> [Integer]
--- pascalStep [] = []
--- pascalStep [_] = []
--- pascalStep (x:y:xs) = x + y : pascalStep (y : xs)
+bins :: Integer -> [Integer]
+bins n | n>=0 = ((map fst).(takeWhile a).(iterate b))(1,0)
+       where a (c,k) = k <= n
+             b (c,k) = let m = k+1 in (c * (n-k) `div` m, m)
 
 
 \end{code}
@@ -630,7 +635,9 @@ fibs = 0:1:(zipWith (+) fibs (tail fibs))
 
 Мое решение:
 \begin{code}
-
+eApr :: Float -> Float
+eApr eps | eps > 0 = (sum.(takeWhile (>= eps)).(map fst))(iterate h (1.0, 0.0))
+         where h (t, n) = let m = n + 1.0 in (t / m, m)
 \end{code}
 
 \textbf{3-5} Для заданного $a \geq 0$ с заданной точностью $d$ требуется вычислить $\sqrt{a}$ при помощи алгоритма Герона, который основан на построении следующей последовательности чисел, сходящейся к значению $\sqrt{a}$:
@@ -643,7 +650,11 @@ fibs = 0:1:(zipWith (+) fibs (tail fibs))
 
 Мое решение:
 \begin{code}
-
+sqrtH :: Float -> Float -> Float
+sqrtH a d | d<=0 || a < 0 = undefined
+          | otherwise = step (iterate (\ xn -> (xn+a/xn)/2)1)
+    where step (x:xs@(nextd : _)) | abs (nextd - x) <= d = nextd
+                                  | otherwise = step xs 
 \end{code}
 
 %\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%
@@ -665,7 +676,10 @@ dm n = divMod n k
 
 Мое решение:
 \begin{code}
-
+revdigs :: (Integer -> (Integer, Integer)) -> Integer -> [Integer]
+revdigs dm n | d == 0    = [m]
+             | otherwise = m : (revdigs dm d)
+             where (d, m) = dm n
 \end{code}
 
 \textbf{Функция revsetun.} 
@@ -677,7 +691,10 @@ revsetun :: Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+revsetun :: Integer -> [Integer]
+revsetun n = revdigs (dm) n
+    where dm k = let (d, m) = divMod k 3 in
+                 if m == 2 then (d + 1, -1) else (d, m)
 \end{code}
 
 \textbf{Функция revfigs.} 
@@ -689,14 +706,16 @@ revfigs :: Integer -> Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+revfigs :: Integer -> Integer -> [Integer]
+revfigs k n | k > 1 && n >= 0 = revdigs (\ x -> divMod x k) n
 \end{code}
 
 \textbf{4-1} Написать функцию \prg{binary\_dgts :: Integer {\AR} [Integer]}, переводящую число \prg{n >= 0} в список его двоичных цифр.
 
 Мое решение:
 \begin{code}
-
+binary_dgts :: Integer -> [Integer]
+binary_dgts n = k_ary_dgts n 2 
 \end{code}
 
 \textbf{4-2} Написать функцию
@@ -707,7 +726,8 @@ ternary_dgts :: Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+ternary_dgts :: Integer -> [Integer]
+ternary_dgts n = k_ary_dgts n 3
 \end{code}
 
 \textbf{4-3} Написать функцию
@@ -718,7 +738,8 @@ decimal_dgts :: Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+decimal_dgts :: Integer -> [Integer]
+decimal_dgts n = k_ary_dgts n 10
 \end{code}
 
 \textbf{4-4} Написать функцию
@@ -729,7 +750,8 @@ k_ary_dgts :: Integer -> Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+k_ary_dgts :: Integer -> Integer -> [Integer]
+k_ary_dgts n k= reverse (revfigs k n)
 \end{code}
 
 \textbf{4-5} Написать функцию
@@ -740,28 +762,35 @@ setun_dgts :: Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+setun_dgts :: Integer -> [Integer]
+setun_dgts = reverse.revsetun
 \end{code}
 
 \textbf{4-6} Написать функцию \prg{s2dgts :: Integer {\AR} Integer}, вычисляющую сумму последних двух цифр десятичной записи числа.
 
 Мое решение:
 \begin{code}
-
+s2dgts :: Integer -> Integer
+s2dgts n | l > 9 = (sum.(take 2).(revfigs 10)) l
+         where l = abs n
 \end{code}
 
 \textbf{4-7} Написать функцию \prg{p3dgts :: Integer {\AR} Integer}, вычисляющую произведение последних трех цифр десятичной записи числа.
 
 Мое решение:
 \begin{code}
-
+p3dgts :: Integer -> Integer
+p3dgts n | l > 99 = (product.(take 3).(revfigs 10)) l
+         where l = abs n
 \end{code}
 
 \textbf{4-8} Написать функцию \prg{l4dgts :: Integer {\AR} [Integer]}, выдающую список из последних четырех цифр числа.
 
 Мое решение:
 \begin{code}
-
+l4dgts :: Integer -> [Integer]
+l4dgts n | l > 999 = (reverse.(take 4).(revfigs 10)) l
+         where l = abs n
 \end{code}
 
 %\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%\%
@@ -771,6 +800,9 @@ setun_dgts :: Integer -> [Integer]
 
 Мое решение:
 \begin{code}
+dgt_chr :: Integer -> Char
+dgt_chr n | n >= 0 && n <= 9 = toEnum ((fromInteger n) + (fromEnum '0'))
+          | otherwise = undefined
 
 \end{code}
 
@@ -778,7 +810,9 @@ setun_dgts :: Integer -> [Integer]
 
 Мое решение:
 \begin{code}
-
+chr_dgt :: Char -> Integer
+chr_dgt n | n >= '0' && n <= '9' = toInteger((fromEnum n) - (fromEnum '0'))
+          | otherwise = undefined
 \end{code}
 
 \textbf{5-3} Написать функцию \prg{sumDigits :: String {\AR} Int}, складывающую все цифры в строке, например:
@@ -792,7 +826,9 @@ main:> sumDigits "No digits here!"
 
 Мое решение:
 \begin{code}
-
+sumDigits :: String -> Int
+sumDigits = sum.(map tmp).filter isDigit
+   where tmp n = (ord n) - ord '0' :: Int
 \end{code}
 
 \textbf{5-4} Написать функцию \prg{upAlpha :: String {\AR} String}, которая выбирает из строки все латинские буквы и переводит их в верхний регистр, например:
@@ -806,7 +842,9 @@ main:> upAlpha "Hi."
 
 Мое решение:
 \begin{code}
+upAlpha :: String -> String
 
+upAlpha = (map toUpper).filter isAlpha
 \end{code}
 
 \textbf{5-5} Пусть имя человека записывается только в одном из трех форматов <<фамилия>>, <<имя фамилия>>, <<имя отчество фамилия>>. Определите функцию \prg{abbrev :: [String] {\AR} [String]}, которая в заданном списке имен людей, например:
@@ -958,7 +996,8 @@ main:> inRange 5 10 [1..15]
 
 Мое решение:
 \begin{code}
-
+inRange :: Int -> Int -> [Int] -> [Int]
+inRange a b xs = [ x | x <- xs, x >= a, x <= b]
 \end{code}
 
 \textbf{9-2} Напишите функцию
@@ -967,7 +1006,8 @@ main:> inRange 5 10 [1..15]
 
 Мое решение:
 \begin{code}
-
+pairs :: Int -> [(Int,Int)]
+pairs n = [(x,y) | x <- [1..n], y <- [1..n]]
 \end{code}
 
 \textbf{9-3} Написать функцию \prg{idxs :: Eq a $\Rightarrow$ [a] {\AR} a {\AR} [Int]}, которая находит в списке все вхождения элементов, равных \prg{(==)} заданному, и выдает позиции, в которых он встретился, например:
