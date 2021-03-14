@@ -118,17 +118,17 @@ import ExtraTypes
     - chk5_5     abbrev             -- проверка задачи 5-5
 
     Кредит и его погашение
-    - chk6_1     balances           -- проверка задачи 6-1
+    + chk6_1     balances           -- проверка задачи 6-1
     - chk6_2     balance            -- проверка задачи 6-2
-    - chk6_3     credit_years       -- проверка задачи 6-3
+    + chk6_3     credit_years       -- проверка задачи 6-3
     - chk6_4     balances_y         -- проверка задачи 6-4
 
     Делители и простые числа
-    - chk7_1     denominators       -- проверка задачи 7-1
+    + chk7_1     denominators       -- проверка задачи 7-1
     - chk7_2     isPrime            -- проверка задачи 7-2
 
     Операторы
-    - chk8_1     (.+.)              -- проверка задачи 8-1
+    + chk8_1     (.+.)              -- проверка задачи 8-1
     - chk8_2     (./.)              -- проверка задачи 8-2
     - chk8_3     (.-:)              -- проверка задачи 8-3
     - chk8_4     (.+:)              -- проверка задачи 8-4
@@ -139,8 +139,8 @@ import ExtraTypes
     Списки
     + chk9_1     inRange            -- проверка задачи 9-1
     + chk9_2     pairs              -- проверка задачи 9-2
-    - chk9_3     idxs               -- проверка задачи 9-3
-    - chk9_4     delGt              -- проверка задачи 9-4
+    + chk9_3     idxs               -- проверка задачи 9-3
+    + chk9_4     delGt              -- проверка задачи 9-4
     - chk9_5     fsearch            -- проверка задачи 9-5
     - chk9_6     remdumps           -- проверка задачи 9-6
     - chk9_7     chkDups            -- проверка задачи 9-7
@@ -874,7 +874,15 @@ balances :: Float -> Float -> Float -> [Float]
 
 Мое решение:
 \begin{code}
-
+balances :: Float -> Float -> Float -> [Float]
+balances k p x  | k<=0 || p<=0 || x<=0 = undefined
+                | k <= amount_with_percents k = undefined
+                | otherwise = k : get_current_balance (amount_with_percents k)
+                where amount_with_percents credit_amount = credit_amount * percent_per_month - x
+                      percent_per_month = 1+p/1200
+                      get_current_balance :: Float -> [Float]
+                      get_current_balance current | current < 0 = [0]
+                                                  | otherwise = current : get_current_balance (amount_with_percents current)
 \end{code}
 
 \textbf{6-2} Василий Пыжиков берет в кредит \prg{k > 0} долларов. Годовая процентная ставка по кредиту \prg{p > 0}. Ежемесячно Василий обязуется отдавать \prg{x > 0} долларов, и это постепенно гасит кредит.
@@ -890,7 +898,8 @@ balances :: Float -> Float -> Float -> [Float]
 
 Мое решение:
 \begin{code}
-
+credit_years :: Float -> Float -> Float -> Float
+credit_years k p x = fromInteger(toInteger(length (balances k p x) - 1)) / 12
 \end{code}
 
 \textbf{6-4} Василий Пыжиков берет в кредит \prg{k > 0} долларов. Годовая процентная ставка по кредиту \prg{p > 0}. Ежемесячно Василий обязуется отдавать \prg{x > 0} долларов, и это постепенно гасит кредит.
@@ -911,7 +920,11 @@ balances_y :: Float -> Float -> Float -> [Float]
 
 Moe решение:
 \begin{code}
-
+denominators :: Integer -> [Integer]
+denominators n | n /= 0 =   if abs_n == 1 then [1] 
+                            else 1:[ x | x <- [2 .. fin], n `mod` x == 0] ++ [abs_n]
+                            where abs_n = abs n
+                                  fin = abs_n `div` 2
 \end{code}
 
 \textbf{7-2} Написать функцию \prg{isPrime :: Integer {\AR} Bool} проверки простоты заданного числа $n > 1$.
@@ -928,7 +941,8 @@ Moe решение:
 
 Мое решение:
 \begin{code}
-
+(.+.) :: Integer -> Integer -> Integer
+(.+.) a b = sum(denominators(gcd a b))
 \end{code}
 
 \textbf{8-2} Написать оператор \prg{(./.) :: Integer {\AR} Integer {\AR} Integer}, который из двух чисел выдает то, у которого больше нулей в десятичной записи.
@@ -997,7 +1011,7 @@ main:> inRange 5 10 [1..15]
 Мое решение:
 \begin{code}
 inRange :: Int -> Int -> [Int] -> [Int]
-inRange a b xs = [ x | x <- xs, x >= a, x <= b]
+inRange a b xs = [ x | x <- xs, x >= a, x <= b] 
 \end{code}
 
 \textbf{9-2} Напишите функцию
@@ -1021,14 +1035,16 @@ main:> idxs "senselessness's" 's'
 
 Мое решение:
 \begin{code}
-
+idxs :: Eq a => [a] -> a -> [Int]
+idxs = flip elemIndices
 \end{code}
 
 \textbf{9-4} Написать функцию, которая  удаляет из списка все элементы, больше заданного: \prg{delGt:: Ord a $\Rightarrow$ a {\AR} [a] {\AR} [a]}.
 
 Мое решение:
 \begin{code}
-
+delGt:: Ord a => a -> [a] -> [a]
+delGt n = filter(<= n)
 \end{code}
 
 \textbf{9-5} Дан список \prg{[Float]} вещественных чисел $x_1 \leq x_2 \leq \dots \leq x_n$ и дано вещественное число $y$. Напишите функцию \prg{fsearch :: [Float] {\AR} Float {\AR} Int}, вычисляющую такое $k$, что $x_k < y \leq x_{k+1}$.
